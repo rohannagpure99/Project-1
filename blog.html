@@ -4,50 +4,163 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
-    <script src="https://kit.fontawesome.com/5c973c444f.js" crossorigin="anonymous"></script>
-    
     <title>Blog</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/5c973c444f.js" crossorigin="anonymous"></script>
+   
 </head>
 <body>
-        <div class="header" >
-        
-     
-  
-       
-        </div>
-            <div class="Menu-bar">
-                
-                <nav>
-                    <a href="#">
-                        <i style="font-size: 40px;" class="fa-solid fa-shield-halved fa-flip" style="color: #2dc322;"></i>
-                    </a>
-                    <br>
-                    <ul>
-                        <li>
-                            <a href="index.html">Home</a>
-                        </li>
-                        <li>
-                            <a href="finance.html">Finance</a>
-                        </li>
-                        <li>
-                            <a href="insurance.html">Insurance</a>
-                        </li>
-                        <li>
-                            <a href="#">Blog</a>
-                        </li>
-                        <li>
-                            <a href="about.html">About</a>
-                        </li>
-                        <li>
-                            <a href="contact.html">Contact</a>
-                        </li>
-   
-                    </ul>
-   
-   
-            </nav> 
-
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
+        <div class="container">
+            <a class="navbar-brand" href="#">ShieldProfit</a>
+            <a href="#">
+                <i style="font-size: 40px;" class="fa-solid fa-shield-halved fa-flip" style="background-color: #54d84d;"></i>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="finance.html">Loan</a></li>
+                    <li class="nav-item"><a class="nav-link" href="insurance.html">Insurance</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+                </ul>
             </div>
+        </div>
+    </nav>
+
+     <!-- Blog Section -->
+     <section id="blog" class="py-5">
+        <div class="container">
+            <h2 class="text-center">Our Blog</h2>
+            <p class="text-center">Stay updated with the latest industry trends.</p>
+        </div>
+    </section>
+
+
+    <!-- Header Section -->
+    <header class="bg-primary text-white text-center py-5">
+        <div class="container">
+            <h1>Our Blog</h1>
+            <p>Stay updated with the latest news, tips, and insights on loans and insurance.</p>
+        </div>
+    </header>
+
+    <!-- Blog Section -->
+    <section class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Latest Posts</h2>
+            <div class="row g-4">
+                <!-- Blog Post 1 -->
+                <div class="col-md-4">
+                    <div class="card h-100 shadow">
+                        <img src="images/img1blog.png" class="card-img-top" alt="Blog 1">
+                        <div class="card-body">
+                            <h5 class="card-title">5 Tips for Choosing the Right Loan</h5>
+                            <p class="card-text">
+                                Discover key factors to consider when selecting the perfect loan for your needs.
+                            </p>
+                        </div>
+                        <div class="card-footer text-center">
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Blog Post 2 -->
+                <div class="col-md-4">
+                    <div class="card h-100 shadow">
+                        <img src="images/imgblog2.webp" class="card-img-top" alt="Blog 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Understanding Life Insurance Policies</h5>
+                            <p class="card-text">
+                                Learn about different types of life insurance policies and which one suits you best.
+                            </p>
+                        </div>
+                        <div class="card-footer text-center">
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Blog Post 3 -->
+                <div class="col-md-4">
+                    <div class="card h-100 shadow">
+                        <img src="images/img3blog.webp" class="card-img-top" alt="Blog 3">
+                        <div class="card-body">
+                            <h5 class="card-title">How to Save Money on Vehicle Insurance</h5>
+                            <p class="card-text">
+                                Explore smart strategies to reduce your vehicle insurance premiums without compromising on coverage.
+                            </p>
+                        </div>
+                        <div class="card-footer text-center">
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Blog Post 4 -->
+                <div class="col-md-4">
+                    <div class="card h-100 shadow">
+                        <img src="images/img4blog.webp" class="card-img-top" alt="Blog 4">
+                        <div class="card-body">
+                            <h5 class="card-title">Top Benefits of Travel Insurance</h5>
+                            <p class="card-text">
+                                Discover why travel insurance is essential for your next adventure.
+                            </p>
+                        </div>
+                        <div class="card-footer text-center">
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Blog Post 5 -->
+                <div class="col-md-4">
+                    <div class="card h-100 shadow">
+                        <img src="images/img5blog.jpg" class="card-img-top" alt="Blog 5">
+                        <div class="card-body">
+                            <h5 class="card-title">Comparing Home Insurance Plans</h5>
+                            <p class="card-text">
+                                A detailed guide to choosing the best home insurance plan for your property.
+                            </p>
+                        </div>
+                        <div class="card-footer text-center">
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Blog Post 6 -->
+                <div class="col-md-4">
+                    <div class="card h-100 shadow">
+                        <img src="images/img6blog.jpg" class="card-img-top" alt="Blog 6">
+                        <div class="card-body">
+                            <h5 class="card-title">The Basics of Business Insurance</h5>
+                            <p class="card-text">
+                                Learn how business insurance can protect your company from unexpected risks.
+                            </p>
+                        </div>
+                        <div class="card-footer text-center">
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+     <!-- footer section -->
+     <footer class="text-center py-3 bg-primary text-white">
+        <p>&copy; 2024 ShieldProfit. All rights reserved.</p>
+    </footer>
+    
 
 </body>
 </html>
